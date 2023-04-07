@@ -1,0 +1,58 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+# - name:
+#       detail: modern agile
+#       i18n: company_a
+#   desc:
+#       detail: 개발 동아리
+#       i18n: company_a_desc
+#   date:
+#       detail: Apr. 2016
+#       i18n: company_a_date
+#   job:
+#       detail: CTO
+#       i18n: company_a_job
+#   icon: fa-plus-square
+#   present: true
+
+- name:
+      detail: IFP
+      i18n: company_b
+  desc:
+      detail: 학과 개발 동아리
+      i18n: company_c_desc
+  date:
+      detail: Sep. 2022
+      i18n: company_c_date
+  job:
+      detail: student
+      i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
+      detail: modern agile
+      i18n: company_b
+  desc:
+      detail: 개발 동아리
+      i18n: company_b_desc
+  date:
+      detail: Jun. 2022
+      i18n: company_b_date
+  job:
+      detail: Backend Developer
+      i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+      detail: 인덕대학교
+      i18n: company_a
+  desc:
+      detail: 컴퓨터 소프트웨어학과
+      i18n: company_a_desc
+  date:
+      detail: Mar. 2021
+      i18n: company_a_date
+  job:
+      detail: student
+      i18n: company_a_job
+  icon: fa-plus-square
