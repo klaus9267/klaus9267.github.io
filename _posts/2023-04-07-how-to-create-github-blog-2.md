@@ -74,5 +74,6 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
     이동한 후 다음과 같은 명령어를 입력합니다.
 
     - `bundle install`
+    - `bundle exec jekyll serve`
 
-    그리고 cinfig
+        ![Untitled](https://user-images.githubusercontent.com/90795904/230708496-736c2757-39fa-438f-9f78-d3516a287f1c.png)
