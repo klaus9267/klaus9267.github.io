@@ -4,7 +4,7 @@ title: 'github blog - jekyll theme 적용(jalpc)'
 date: 2023-04-07
 categories: [Archive]
 tags: [github, gh-pages, github-blog]
-icon: icon-git
+icon: icon-database
 ---
 
 github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-to-create-github-blog-1.html](https://klaus9267.github.io/archive/2023/04/05/how-to-create-github-blog-1.html)
@@ -76,4 +76,4 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
     - `bundle install`
     - `bundle exec jekyll serve`
 
-        ![Untitled](https://user-images.githubusercontent.com/90795904/230708496-736c2757-39fa-438f-9f78-d3516a287f1c.png)
+        ![Untitled](https://user-images.githubusercontent.com/90795904/230708496-736c2757-39fa-438f-9f78-d3516a287f1c.png){: width="70%" height="70%"}
