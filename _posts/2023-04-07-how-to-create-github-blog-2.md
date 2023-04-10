@@ -15,11 +15,11 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
 
 **Before**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6dfa6a4b-2b80-40d6-987e-6eb3141ca003/Untitled.png)
+![1](https://user-images.githubusercontent.com/90795904/230716958-c300c379-12a2-4e10-9363-e68f571d9f8e.png){: width="100%" height="100%"}
 
 **After**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/619bb9b7-a121-46c2-bc01-f2265e99272c/Untitled.png)
+![2](https://user-images.githubusercontent.com/90795904/230716954-44df44d8-cd5d-4ce4-bc69-278a7ac1f011.png){: width="100%" height="100%"}
 
 ---
 
@@ -35,7 +35,7 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
 
     저는 첫 번째 사이트에서 테마를 골랐습니다.
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4626bd2-715d-45bc-8520-1793b0478bc3/Untitled.png)
+    ![3](https://user-images.githubusercontent.com/90795904/230716959-2ca9d93b-7c2c-43ad-9b80-57b46d3b35bb.png){: width="70%" height="70%"}
 
     마음에 드는 테마를 클릭하시면 다음과 같은 화면이 나옵니다.
 
@@ -43,11 +43,11 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
 
     소스코드가 담겨있는 보고싶으시면 homepage를 클릭하셔서 해당 테마의 github로 이동하실 수 있습니다.
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e9193fd-84d4-4f17-a29e-8456dd163f8e/Untitled.png)
+    ![4](https://user-images.githubusercontent.com/90795904/230716960-58bfb45c-cf0b-4f39-98b5-0456713b24fd.png){: width="100%" height="100%"}
 
     github에 들어오셔서 **code**를 누르셔서
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c8f1243c-c24c-4a48-9db0-cc3bf09d0db0/Untitled.png)
+    ![5](https://user-images.githubusercontent.com/90795904/230716962-e4d664f8-984e-4b49-be0f-3dc3d2f1cf40.png){: width="40%" height="40%"}
 
     그림과 같이 **Download ZIP**를 눌러서 해당 파일을 다운받아줍니다.
 
@@ -76,4 +76,4 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
     - `bundle install`
     - `bundle exec jekyll serve`
 
-        ![Untitled](https://user-images.githubusercontent.com/90795904/230708496-736c2757-39fa-438f-9f78-d3516a287f1c.png){: width="70%" height="70%"}
+    ![Untitled](https://user-images.githubusercontent.com/90795904/230708496-736c2757-39fa-438f-9f78-d3516a287f1c.png){: width="100%" height="100%"}
