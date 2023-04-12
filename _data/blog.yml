@@ -12,8 +12,8 @@
 # - name: Database
 #   href: /database/
 
-# - name: AWS
-#   href: /aws/
+- name: Cloud
+  href: /cloud/
 
 - name: Archive
   href: /archive/
