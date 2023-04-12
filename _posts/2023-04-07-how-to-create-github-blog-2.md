@@ -15,11 +15,11 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
 
 **Before**
 
-![1](https://user-images.githubusercontent.com/90795904/230716958-c300c379-12a2-4e10-9363-e68f571d9f8e.png){: width="100%" height="100%"}
+![1](https://user-images.githubusercontent.com/90795904/230716958-c300c379-12a2-4e10-9363-e68f571d9f8e.png){: width="80%" height="80%"}
 
 **After**
 
-![2](https://user-images.githubusercontent.com/90795904/230716954-44df44d8-cd5d-4ce4-bc69-278a7ac1f011.png){: width="100%" height="100%"}
+![2](https://user-images.githubusercontent.com/90795904/230716954-44df44d8-cd5d-4ce4-bc69-278a7ac1f011.png){: width="80%" height="80%"}
 
 ---
 
@@ -35,7 +35,7 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
 
     저는 첫 번째 사이트에서 테마를 골랐습니다.
 
-    ![3](https://user-images.githubusercontent.com/90795904/230716959-2ca9d93b-7c2c-43ad-9b80-57b46d3b35bb.png){: width="70%" height="70%"}
+    ![3](https://user-images.githubusercontent.com/90795904/230716959-2ca9d93b-7c2c-43ad-9b80-57b46d3b35bb.png){: width="50%" height="50%"}
 
     마음에 드는 테마를 클릭하시면 다음과 같은 화면이 나옵니다.
 
@@ -43,11 +43,11 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
 
     소스코드가 담겨있는 보고싶으시면 homepage를 클릭하셔서 해당 테마의 github로 이동하실 수 있습니다.
 
-    ![4](https://user-images.githubusercontent.com/90795904/230716960-58bfb45c-cf0b-4f39-98b5-0456713b24fd.png){: width="100%" height="100%"}
+    ![4](https://user-images.githubusercontent.com/90795904/230716960-58bfb45c-cf0b-4f39-98b5-0456713b24fd.png){: width="70%" height="70%"}
 
     github에 들어오셔서 **code**를 누르셔서
 
-    ![5](https://user-images.githubusercontent.com/90795904/230716962-e4d664f8-984e-4b49-be0f-3dc3d2f1cf40.png){: width="40%" height="40%"}
+    ![5](https://user-images.githubusercontent.com/90795904/230716962-e4d664f8-984e-4b49-be0f-3dc3d2f1cf40.png){: width="30%" height="30%"}
 
     그림과 같이 **Download ZIP**를 눌러서 해당 파일을 다운받아줍니다.
 
@@ -76,4 +76,4 @@ github blog 만들기 - 1 : [https://klaus9267.github.io/archive/2023/04/05/how-
     - `bundle install`
     - `bundle exec jekyll serve`
 
-    ![Untitled](https://user-images.githubusercontent.com/90795904/230708496-736c2757-39fa-438f-9f78-d3516a287f1c.png){: width="100%" height="100%"}
+    ![Untitled](https://user-images.githubusercontent.com/90795904/230708496-736c2757-39fa-438f-9f78-d3516a287f1c.png){: width="80%" height="80%"}
