@@ -3,23 +3,26 @@
   href: /blog/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Nest
-  href: /nest/
+# - name: Nest
+#   href: /nest/
 
-- name: Spring
-  href: /Spring/
+# - name: Spring
+#   href: /Spring/
 
-- name: Database
-  href: /database/
+# - name: Database
+#   href: /database/
 
-- name: AWS
-  href: /aws/
+- name: Cloud
+  href: /cloud/
 
 - name: Archive
   href: /archive/
 
 - name: Computer Science
   href: /computer-science/
+
+- name: TIL
+  href: /til/
 
 # - name: Mac
 #   href: /mac/
