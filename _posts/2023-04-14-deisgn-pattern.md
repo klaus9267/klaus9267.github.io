@@ -7,20 +7,6 @@ tags: [design-pattern, computer-science]
 icon: icon-apache
 ---
 
-🎈[디자인 패턴에 대해서](#🎈-디자인-패턴에-대해서)
-
-🎈[Singleton 패턴](#🎈-singleton-패턴)
-
-🎈[Factory Method 패턴](#🎈-factory-method-패턴)
-
-🎈[Observer 패턴](#🎈-observer-패턴)
-
-🎈[Decorator 패턴](#🎈-decorator-패턴)
-
-🎈[Command 패턴](#🎈-command-패턴)
-
----
-
 ### 🎈 디자인 패턴에 대해서
 
 디자인 패턴(Design Pattern)은 프로그래밍에서 재사용 가능한 해결책을 제공하기 위한 개념으로, 프로그래밍에서 자주 발생하는 문제들에 대해 일반적으로 사용되는 해결 방법을 정형화한 것입니다.
