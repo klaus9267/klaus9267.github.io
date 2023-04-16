@@ -4,7 +4,7 @@ title: 'Cloud computing이란?'
 date: 2023-04-13
 categories: [Cloud]
 tags: [cloud, cloud-computing]
-icon: icon-database
+icon: icon-aws
 ---
 
 🎈[cloud-computing](#🎈cloud-computing)
