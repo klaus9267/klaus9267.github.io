@@ -1,42 +1,19 @@
-import React, { useEffect, useRef } from 'react';
-import { useColorMode } from '@docusaurus/theme-common';
+import React, { useEffect } from 'react';
 
-function Comment() {
-  const containerRef = useRef(null);
-  const utterancesRef = useRef(null);
-
-  const { colorMode } = useColorMode();
-  const utterancesTheme = colorMode === 'dark' ? 'github-dark' : 'github-light';
-
+const Comment = () => {
   useEffect(() => {
-    const createUtterancesEl = () => {
-      const script = document.createElement('script');
-      script.src = 'https://utteranc.es/client.js';
-      script.setAttribute('repo', 'klaus9267/klaus9267/github.io');
-      script.setAttribute('issue-term', 'pathname');
-      script.setAttribute('label', 'comments');
-      script.setAttribute('theme', 'github-light');
-      script.crossOrigin = 'anonymous';
-      script.async = true;
-      script.onload = () => {
-        utterancesRef.current = document.querySelector('.utterances-frame');
-      };
+    const script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'klaus9267/klaus9267.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
 
-      containerRef.current.appendChild(script);
-    };
-    createUtterancesEl();
+    document.getElementById('comments').appendChild(script);
   }, []);
 
-  useEffect(() => {
-    if (!utterancesRef.current) return;
-    const message = {
-      type: 'set-theme',
-      theme: utterancesTheme,
-    };
+  return <div id="comments" />;
+};
 
-    utterancesRef.current.contentWindow.postMessage(message, 'https://utteranc.es');
-  }, [utterancesTheme]);
-
-  return <div ref={containerRef} />;
-}
 export default Comment;

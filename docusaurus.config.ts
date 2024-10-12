@@ -25,9 +25,11 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'docs',
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https//github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -49,6 +51,11 @@ const config: Config = {
     ],
   ],
   themeConfig: {
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
@@ -58,6 +65,22 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          label: 'Spring',
+          position: 'left',
+          items: [
+            {
+              type: 'docSidebar',
+              sidebarId: 'java',
+              label: 'Java',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'kotlin',
+              label: 'Kotlin',
+            },
+          ],
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -78,15 +101,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-  plugins: [
-    [
-      'vercel-analytics',
-      {
-        debug: true,
-        mode: 'auto',
-      },
-    ],
-  ],
+  plugins: [],
 };
 
 export default config;
