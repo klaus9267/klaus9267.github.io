@@ -8,9 +8,14 @@ type Props = WrapperProps<typeof DocItemType>;
 
 export default function DocItemWrapper(props: Props): JSX.Element {
   return (
-    <>
+    <div>
       <DocItem {...props} />
-      <Comment />
-    </>
+      <div className="row">
+        <div className="col">
+          <Comment />
+        </div>
+        <div className="col col--3"></div>
+      </div>
+    </div>
   );
 }

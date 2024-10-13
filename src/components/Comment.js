@@ -13,7 +13,11 @@ const Comment = () => {
     document.getElementById('comments').appendChild(script);
   }, []);
 
-  return <div id="comments" />;
+  return (
+    <div className="comment-container">
+      <div id="comments" className="red" />
+    </div>
+  );
 };
 
 export default Comment;
